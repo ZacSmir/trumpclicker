@@ -1,3 +1,3 @@
 
 console.log("lala")
-$("#click").onclick=function(){console.log("stuff")};
+$("#click").onclick=function click(){console.log("stuff")};
