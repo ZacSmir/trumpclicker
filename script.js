@@ -1,9 +1,7 @@
 var clickmoney = 1
-var moneys = 0
-document.getElementById('money').innerHTML = 'you have ' + moneys + " million dollars";
+var money = 0
+document.getElementById('money').innerHTML = 'you have ' + money + " million dollars";
 document.getElementById("click").onclick = function click() {
-  console.log("stuff")
-  var money = money + clickmoney
-  console.log(money)
-  document.getElementById('money').innerHTML = 'you have ' + moneys + " million dollars";
+  money += clickmoney;
+  document.getElementById('money').innerHTML = 'you have ' + money + " million dollars";
 }
