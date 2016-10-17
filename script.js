@@ -1,3 +1,3 @@
 
-console,log("stuff")
-$("#CLICKME").onclick=function(){console.log("stuff")};
+console.log("lala")
+$("#click").onclick=function(){console.log("stuff")};
