@@ -1,4 +1,4 @@
 
-$("#CLICKME").onclick=click(){
+$("#CLICKME").onclick=click() {
 console.log("BLURRR")
-}
+)}
