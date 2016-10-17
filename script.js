@@ -1,1 +1,1 @@
-$()
+$("#CLICKME").onclick
