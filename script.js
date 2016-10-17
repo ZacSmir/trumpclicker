@@ -1,6 +1,6 @@
 var listvalue = "trumpclicker"
 
- function onNewListItem("listvalue", function(output) {
+ onNewListItem("listvalue", function(output) {
   money.html(output)
 })
 
