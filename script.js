@@ -1,2 +1,4 @@
 
-$("#CLICKME").onclick=click(){}
+$("#CLICKME").onclick={}
+
+$("").onclick=click(){myScript};
