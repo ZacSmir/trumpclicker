@@ -1,4 +1,3 @@
 
-$("#CLICKME").onclick={}
-
-$("").onclick=click(){myScript};
+console,log("stuff")
+$("#CLICKME").onclick=function(){console.log("stuff")};
