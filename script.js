@@ -1,4 +1,2 @@
 
-$("#CLICKME").onclick=click() {
-console.log("BLURRR")
-)}
+$("#CLICKME").onclick=click(){}
