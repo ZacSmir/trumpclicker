@@ -1,11 +1,13 @@
 var listvalue = "trumpclicker"
 
+onNewListItem("listvalue", function(
+
 var clickmoney = 1
 var money = 0
 document.getElementById('money').innerHTML = 'you have ' + money + " million dollars";
 document.getElementById("click").onclick = function click() {
   money += clickmoney;
   document.getElementById('money').innerHTML = 'you have ' + money + " million dollars";
-  addListItem(listvalue, money);
+  addListItem("listvalue", money);
   console.log()
 }
