@@ -6,5 +6,6 @@ document.getElementById('money').innerHTML = 'you have ' + money + " million dol
 document.getElementById("click").onclick = function click() {
   money += clickmoney;
   document.getElementById('money').innerHTML = 'you have ' + money + " million dollars";
-  addListItem(listvalue, valueToSave);
+  addListItem(listvalue, money);
+  console.log()
 }
