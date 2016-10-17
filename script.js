@@ -1,6 +1,8 @@
 var listvalue = "trumpclicker"
 
-onNewListItem("listvalue", function(
+onNewListItem("listvalue", function(output) {
+  money.html()
+})
 
 var clickmoney = 1
 var money = 0
