@@ -1,1 +1,4 @@
-$("#CLICKME").onclick
+
+$("#CLICKME").onclick{
+console.log("BLURB")
+}
