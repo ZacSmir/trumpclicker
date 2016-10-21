@@ -11,3 +11,5 @@ document.getElementById("click").onclick = function click() {
   addListItem(listvalue, money);
   console.log(listvalue)
 }
+
+document.getElementById('login').onclick = function loginpage() {}
