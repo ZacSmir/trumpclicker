@@ -9,5 +9,5 @@ document.getElementById("click").onclick = function click() {
   money += clickmoney;
   document.getElementById('money').innerHTML = 'you have ' + money + " million dollars";
   addListItem(listvalue, money);
-  console.log()
+  console.log(listvalue)
 }
