@@ -9,8 +9,8 @@ var money = 0
 document.getElementById("click").onclick = function click() {
   money += clickmoney;
   document.getElementById('money').innerHTML = 'you have ' + money + " million dollars";
-  
-  debt.html("you also have " + )
+  var moneyowed = money*1.15
+  debt.html("you also have " + moneyowed + " million dollars of debt")
   
   
 //  addListItem(listvalue, money);
