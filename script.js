@@ -13,6 +13,7 @@ document.getElementById("click").onclick = function click() {
   var money2 = moneyowed+1
   moneyowed = money2*1.01
   console.log(moneyowed)
+  var moneyowed-val
   debt.html("you also have " + moneyowed + " million dollars of debt")
   
   
