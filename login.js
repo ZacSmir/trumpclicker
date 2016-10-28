@@ -1,8 +1,11 @@
 var loginmoney = localStorage.money
-var username = $("#username").val()
+var usernametext = $("#username").val()
 
-
-
+username.keydown(function(e) {
+  if (e.which == 13) {
+  console.log(usernametext)
+  }	
+})
 
 save.onclick=function(){
   console.log("saved")
