@@ -27,5 +27,6 @@ var usernamestats = {
 }
 
 var stats = {
- username: usernamestats 
+ username: usernametext,
+  usernamestats: usernamestats
 }
