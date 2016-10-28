@@ -1,7 +1,7 @@
 var loginmoney = localStorage.money
 var usernametext = $("#username").val()
 
-username.keydown(function(e) {
+$("#username").keydown(function(e) {
   if (e.which == 13) {
   console.log(usernametext)
   }	
