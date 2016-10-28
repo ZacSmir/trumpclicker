@@ -15,13 +15,7 @@ document.getElementById("click").onclick = function click() {
   console.log(moneyowed)
   var moneyowedvalue = "~" + Math.round(moneyowed)
   debt.html("you also have " + moneyowedvalue + " million dollars of debt")
-  
-  
 //  addListItem(listvalue, money);
 //  console.log(listvalue)
 }
 
-function login(){
-console.log("lginpage")
-
-}

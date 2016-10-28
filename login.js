@@ -1,1 +1,4 @@
-console.log("this bit works")
+
+
+console.log(money)
+
