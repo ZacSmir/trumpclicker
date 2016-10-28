@@ -1,10 +1,12 @@
 var loginmoney = localStorage.money
-var usernamebad = $("#username")
-var username = usernamebad.toString
-console.log(username)
+var username = $("#username").val()
+
+
+
 
 save.onclick=function(){
   console.log("saved")
+  console.log(username)
 // storeValue(username.toString,"test")
 }
 
