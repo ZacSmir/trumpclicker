@@ -1,8 +1,6 @@
+var SaveButton = $("#save")
+
 var loginmoney = localStorage.money
+SaveButton.onclick=function(){ }
 
-console.log(loginmoney)
 
-
-save.onclick{
-console.log("I love memes")
-}
