@@ -1,10 +1,12 @@
-var SaveButton = $("#save")
-
 var loginmoney = localStorage.money
-save.onclick=function(){
+var username = $("#username").toStr
 
+save.onclick=function(){
+ storeValue(us)
 }
 
-load.onclick=fu
+load.onclick=function(){
+
+}
 
 
