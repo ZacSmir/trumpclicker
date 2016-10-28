@@ -1,4 +1,3 @@
+var loginmoney = localStorage.money
 
-
-console.log(money)
-
+console.log(loginmoney)
