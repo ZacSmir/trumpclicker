@@ -1,6 +1,10 @@
 var SaveButton = $("#save")
 
 var loginmoney = localStorage.money
-SaveButton.onclick=function(){ }
+save.onclick=function(){
+
+}
+
+load.onclick=fu
 
 
