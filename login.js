@@ -21,4 +21,11 @@ load.onclick=function(){
 
 }
 
+var usernamestats = {
+ money: "hi",
+ debt: "hi"
+}
 
+var stats = {
+ username: usernamestats 
+}
