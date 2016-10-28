@@ -18,7 +18,7 @@ storeValue(usernametext, loginmoney)
 }
 
 load.onclick=function(){
-
+localStorage.money = 
 }
 
 var usernamestats = {
