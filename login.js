@@ -1,4 +1,5 @@
 var loginmoney = localStorage.money
+var debt = localStorage.debt
 var usernametext = $("#username").val()
 
 $("#username").keydown(function(e) {
@@ -18,7 +19,7 @@ save.onclick=function(){
     loginMoney: loginmoney,
     debt: debt
   }
-storeValue(usernametext, loginmoney)
+storeValue(usernametext, objToSave)
 }
 
 load.onclick=function(){
