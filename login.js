@@ -14,6 +14,10 @@ save.onclick=function(){
   console.log("saved")
   usernametext = $("#username").val()
   console.log(username)
+  var objToSave = {
+    loginMoney: loginmoney,
+    debt: debt
+  }
 storeValue(usernametext, loginmoney)
 }
 
