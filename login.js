@@ -39,5 +39,4 @@ var stats = {
 load.onclick=fucntion(){
   usernametext= $("#username").val()
   once(usernametext)
-  console.log(usernametext.debt)
-}
+  console.log(usernametext.debt)}
