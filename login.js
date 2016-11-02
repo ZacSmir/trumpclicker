@@ -36,7 +36,10 @@ var stats = {
   usernamestats: usernamestats
 }
 
-function 
+loading = function(objectload) {
+obejctload.debt = 
+objectload.
+}
 
 load.onclick=function(){
   usernametext= $("#username").val()
