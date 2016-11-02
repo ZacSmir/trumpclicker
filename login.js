@@ -1,7 +1,7 @@
 var loginmoney = localStorage.money
 var debt = localStorage.debt
 var usernametext = $("#username").val()
-
+var objectload = "it isnt wokring"
 $("#username").keydown(function(e) {
   if (e.which == 13) {
     usernametext = $("#username").val()
@@ -35,6 +35,8 @@ var stats = {
  username: usernametext,
   usernamestats: usernamestats
 }
+
+
 
 loading = function(objectload) {
 obejctload.debt = localStorage.loaddebt
