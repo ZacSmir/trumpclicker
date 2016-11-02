@@ -37,6 +37,7 @@ var stats = {
 }
 
 load.onclick=fucntion(){
-once(usernametext)
-console.log(usernametext.debt)
+  usernametext= $("#username").val()
+  once(usernametext)
+  console.log(usernametext.debt)
 }
