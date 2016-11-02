@@ -36,5 +36,7 @@ var stats = {
   usernamestats: usernamestats
 }
 
+load.onclick=fucntion(){
 once(usernametext)
-console.log(usernametext)
+console.log(usernametext.debt)
+}
