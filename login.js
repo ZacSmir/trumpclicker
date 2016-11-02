@@ -12,7 +12,7 @@ $("#username").keydown(function(e) {
 
 
 save.onclick=function(){
-  console.log("saved")
+  console.log($("#username").val())
   usernametext = $("#username").val()
   console.log(username)
   var objToSave = {
