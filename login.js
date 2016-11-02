@@ -38,9 +38,9 @@ var stats = {
 
 
 
-loading = function() {
-use.debt = localStorage.loaddebt
-objectload.loginmoney = localStorage.loadmoney
+loading = function(data) {
+localStorage.loaddebt = data.debt
+usernametext.loginmoney = localStorage.loadmoney
 }
 
 load.onclick=function(){
