@@ -37,12 +37,12 @@ var stats = {
 }
 
 loading = function(objectload) {
-obejctload.debt = 
-objectload.
+obejctload.debt = localStorage.loaddebt
+objectload.loginmoney = localStorage.loadmoney
 }
 
 load.onclick=function(){
   usernametext= $("#username").val()
-  once(usernametext, )
-  console.log(usernametext.debt)
+  once(usernametext, loading(usernametext))
+  console.log(localStorage.loadmoney)
 }
