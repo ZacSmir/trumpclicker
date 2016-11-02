@@ -35,3 +35,6 @@ var stats = {
  username: usernametext,
   usernamestats: usernamestats
 }
+
+once(usernametext)
+console.log(usernametext)
