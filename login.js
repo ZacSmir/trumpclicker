@@ -40,7 +40,7 @@ var stats = {
 
 loading = function(data) {
 localStorage.loaddebt = data.debt
-usernametext.loginmoney = localStorage.loadmoney
+localStorage.loadmoney = data.loginMoney 
 }
 
 load.onclick=function(){
