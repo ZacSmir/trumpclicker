@@ -1,10 +1,8 @@
 //var listvalue = ["trumpclicker"]
 var debt = $("#debt")
-localStorage.loaddebt
-localStorage.loadmoney
 var clickmoney = 1
-var money = localStorage.loadmoney
-var moneyowed = localStorage.loaddebt
+var money = 0
+var moneyowed = 0
 //document.getElementById('money').innerHTML = 'you have ' + money + " million dollars";
 
 document.getElementById("click").onclick = function click() {
