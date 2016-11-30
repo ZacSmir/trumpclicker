@@ -1,3 +1,4 @@
+var dadmoney = 
 var loginmoney = localStorage.money
 var debt = localStorage.debt
 var usernametext = $("#username").val()
@@ -28,7 +29,8 @@ localStorage.money = 80
 
 var usernamestats = {
  money: "hi",
- debt: "hi"
+ debt: "hi",
+dadmoney: false
 }
 
 var stats = {
