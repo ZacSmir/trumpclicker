@@ -8,7 +8,7 @@ var moneyowed = Number(localStorage.loaddebt || 0)
 //document.getElementById('money').innerHTML = 'you have ' + money + " million dollars";
 
 if (dadmoney = true){
-setInterval
+  setInterval(function(){ mo }, 3000);
 
 }
 
