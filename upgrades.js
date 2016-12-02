@@ -1,7 +1,7 @@
 var dadmoney = false
 var dadbutton = $("#dad")
 
-dadbutton.onclick(dadbuttonfunction)
+dadbutton.click(dadbuttonfunction)
 
 function dadbuttonfunction(){
 dadmoney = true
