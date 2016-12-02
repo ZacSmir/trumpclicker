@@ -1,4 +1,4 @@
-var dadmoney = 
+var dadmoney = localStorage.dadmoney
 var loginmoney = localStorage.money
 var debt = localStorage.debt
 var usernametext = $("#username").val()
