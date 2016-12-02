@@ -9,7 +9,7 @@ var moneyowed = Number(localStorage.loaddebt || 0)
 
 if (dadmoney = true){
   setInterval(function(){ money = money + 1 }, 3000);
-
+  document.getElementById('money').innerHTML = 'you have ' + money + " million dollars";
 }
 
 document.getElementById("click").onclick = function click() {
