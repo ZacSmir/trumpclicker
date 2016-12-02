@@ -1,9 +1,9 @@
 var dadmoney = false
 var dadbutton = $("#dad")
 
-dadbutton.onclick(dadbuttonfunction){}
+dadbutton.onclick(dadbuttonfunction)
 
-dadbuttonfunction = function(){
+function dadbuttonfunction(){
 dadmoney = true
 localStorage.dadmoney = true
 
