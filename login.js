@@ -50,3 +50,6 @@ load.onclick=function(){
   once(usernametext, loading)
   console.log(localStorage.loadmoney)
 }
+
+
+$("#reset")
