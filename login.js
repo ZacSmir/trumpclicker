@@ -52,4 +52,6 @@ load.onclick=function(){
 }
 
 
-$("#reset")
+save.onclick = function(){
+localStorage.
+}
