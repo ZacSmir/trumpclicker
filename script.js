@@ -11,7 +11,7 @@ if (dadmoney = true){
   setInterval(function(){
     money = money + 1
   document.getElementById('money').innerHTML = 'you have ' + money + " million dollars";
-                        }, 3000);
+                        }, 1000);
 
 }
 
