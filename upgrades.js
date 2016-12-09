@@ -1,4 +1,7 @@
 
+var i = 0
+localstorage.buildatower = i
+
 var dadmoney = false
 var dadbutton = $("#dad")
 
@@ -15,5 +18,5 @@ var buildtower = $("#buildtower")
 buildtower.click(buildingatower)
 
 function buildingatower(){
-lo
+localstorage.buildatower = i+1
 }
