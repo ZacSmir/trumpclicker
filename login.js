@@ -52,7 +52,7 @@ load.onclick=function(){
 }
 
 
-save.onclick = function(){
+reset.onclick = function(){
 localStorage.dadmoney=false
 localStorage.loaddebt=0
 localStorage.load=0
