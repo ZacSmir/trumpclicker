@@ -53,5 +53,8 @@ load.onclick=function(){
 
 
 save.onclick = function(){
-localStorage.
+localStorage.dadmoney=false
+localStorage.loaddebt=0
+localStorage.load=0
+
 }
