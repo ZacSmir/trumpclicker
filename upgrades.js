@@ -7,11 +7,14 @@ var dadbutton = $("#dad")
 
 dadbutton.click(dadbuttonfunction)
 
+
 function dadbuttonfunction(){
+  g
 dadmoney = true
 localStorage.dadmoney = true
 console.log("it worked")
 }
+
 
 var buildtower = $("#buildtower")
 
